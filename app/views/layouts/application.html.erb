@@ -48,11 +48,20 @@
     <main class="mb-auto">
       <%= yield %>
     </main>
+    <div id="container">
+      <div id="theTarget">
+        <div class="image1"></div>
+        <div class="image2"></div>
+        <div class="image3"></div>
+        <div class="image4"></div>
+        <div class="image5"></div>
+      </div>
+    </div>
     <footer class="bg-dark text-white pt-5 pb-4">
       <div class="container">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <P>
+            <P class="jquery">
               善良な市民同士で無差別に食欲を煽るSNS
             </P>
             <%= image_tag('logo-white.png') %>
